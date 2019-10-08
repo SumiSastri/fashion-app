@@ -20,3 +20,10 @@ A fashion App with React.js
 - create first component for fashion catalog page that will display all the images
 - test the component works with a hello world jsx-tag and import into app.js
 - test the image jsx-tag and tachyons import working
+
+## Branch 2 Common-Components
+
+- set up folder structure to separate fashion pages from components that can be reused anywhere in the app
+- create first common component - search box as a functional component, not a class-based component
+- test the component works with a hello world jsx tag and import into app.js
+- style component

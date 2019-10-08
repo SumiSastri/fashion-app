@@ -6,7 +6,7 @@ import SearchBox from './frontend/common-input-components/search';
 function App() {
 	return (
 		<div className="App">
-			<h1 className="f2 tc">Fashion Catalog Home</h1>
+			<h1 className="f2 tc">The Ultimate Fashion Catalog</h1>
 			<SearchBox />
 			<FashionCatalogPage />
 		</div>
