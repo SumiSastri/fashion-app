@@ -21,7 +21,7 @@ A fashion App with React.js using API end-point [https://s3-eu-west-1.amazonaws.
 - test the component works with a hello world jsx-tag and import into app.js
 - test the image jsx-tag and tachyons import working
 
-#### Branch 2 Common-Components
+#### Branch 2 Common Components
 
 - set up folder structure to separate fashion pages from components that can be reused anywhere in the app
 - create first common component - search box as a functional component, not a class-based component
@@ -29,8 +29,28 @@ A fashion App with React.js using API end-point [https://s3-eu-west-1.amazonaws.
 - style component
 
 ### Master - Peek Data
-
 - check the data file - is it an API call?
 - check how to view .jl files
 - set up folder to peek-data in backend
 - look at useful data to display make front-end display decisions
+-- https (hyper-text-transfer-protocol-secure) requests (tls transport-layer-security or secure sockets layer) Ajax-fetch-methods may not work
+- Read documentation[https://github.com/JuliaWeb/Requests.jl] [https://julialang.org]
+
+- Render one image as a test on home page
+- Make design decisions on a MVP
+
+* Data rendering tests
+- Fetch method using Ajax 
+```
+fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/archive/zalando-women-07-10-2017/garment_items.jl')
+.then (response => response.json())
+.then(data =>console.log(data));
+```
+ ![xml-http may not work with .jl files](src/fashion-catalog-data/peek-data/Screenshot 2019-10-08 at 23.03.28.png)
+
+### Branch 1 Fashion Pages
+- Review Zalando Home Page [https://www.zalando.co.uk/women-home/] And black dress search results [https://www.zalando.co.uk/women/?q=black+dresses]
+
+
+
+

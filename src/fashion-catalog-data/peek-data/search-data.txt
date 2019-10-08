@@ -1,4 +1,4 @@
-{"product_categories_mapped": [24], 
+{
 "product_id": "ny221a00q-n11", 
 "url": "https://www.zalando.co.uk/native-youth-jumpsuit-olive-ny221a00q-n11.html", 
 "gender": "women", 

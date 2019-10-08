@@ -11,3 +11,9 @@ class FashionCatalogPage extends Component {
 	}
 }
 export default FashionCatalogPage;
+
+fetch(
+	'https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/archive/zalando-women-07-10-2017/garment_items.jl'
+)
+	.then((response) => response.json())
+	.then((data) => console.log(data));
