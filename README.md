@@ -46,7 +46,7 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 .then (response => response.json())
 .then(data =>console.log(data));
 ```
- ![xml-http may not work with .jl files](src/fashion-catalog-data/peek-data/Screenshot 2019-10-08 at 23.03.28.png)
+ ![error-with-fetch-method](./src/fashion-catalog-data/peek-data/Screenshot 2019-10-08 at 23.03.28.png)
 
 ### Branch 1 Fashion Pages
 - Review Zalando Home Page [https://www.zalando.co.uk/women-home/] And black dress search results [https://www.zalando.co.uk/women/?q=black+dresses]
