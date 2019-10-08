@@ -5,7 +5,7 @@ class FashionCatalogPage extends Component {
 		return (
 			<div>
 				<p className="f4 tc">I will be a fashion catalog page when I grow up!</p>
-				<img src="I will be pictures when I grow up" alt="fashion-catalog-images" />
+				<img src="I will be pictures when I grow up!" alt="fashion-catalog-images" />
 			</div>
 		);
 	}

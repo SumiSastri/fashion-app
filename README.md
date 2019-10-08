@@ -13,3 +13,10 @@ A fashion App with React.js
 - Adding Tachyons for styling [npm install tachyons]
 - Change the styling of hello world check taychons installed
 - Check debugging tools, console and react debugger for the changes
+
+## Branch 1 Fashion Pages
+
+- set up folder structure for frontend and backend
+- create first component for fashion catalog page that will display all the images
+- test the component works with a hello world jsx-tag and import into app.js
+- test the image jsx-tag and tachyons import working
