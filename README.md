@@ -1,5 +1,5 @@
 ## Fashion App 
-A fashion App with React.js
+A fashion App with React.js using API end-point [https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/archive/zalando-women-07-10-2017/garment_items.jl]
 
 ### Set up and scaffolding
 
@@ -14,16 +14,23 @@ A fashion App with React.js
 - Change the styling of hello world check taychons installed
 - Check debugging tools, console and react debugger for the changes
 
-## Branch 1 Fashion Pages
+#### Branch 1 Fashion Pages
 
 - set up folder structure for frontend and backend
 - create first component for fashion catalog page that will display all the images
 - test the component works with a hello world jsx-tag and import into app.js
 - test the image jsx-tag and tachyons import working
 
-## Branch 2 Common-Components
+#### Branch 2 Common-Components
 
 - set up folder structure to separate fashion pages from components that can be reused anywhere in the app
 - create first common component - search box as a functional component, not a class-based component
 - test the component works with a hello world jsx tag and import into app.js
 - style component
+
+### Master - Peek Data
+
+- check the data file - is it an API call?
+- check how to view .jl files
+- set up folder to peek-data in backend
+- look at useful data to display make front-end display decisions
