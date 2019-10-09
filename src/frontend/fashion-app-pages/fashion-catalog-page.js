@@ -7,7 +7,7 @@ const FashionCatalogPage = ({ image, description, price }) => {
 				<img
 					className="dib br pa2 ma2 grow bg-animate transition: background-color .10s ease-in-out tc ba bw2 shadow-6"
 					src={image}
-					alt="grey-dress"
+					alt="womens-garments"
 				/>
 				<h4 className="f4 pa1">{description}</h4>
 				<h5 className="f5 pa1">{price}</h5>

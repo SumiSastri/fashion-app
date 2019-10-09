@@ -14,14 +14,14 @@ A fashion App with React.js using data from Julia language file [https://s3-eu-w
 - Change the styling of hello world check taychons installed
 - Check debugging tools, console and react debugger for the changes
 
-#### Branch 1 Fashion Pages
+#### Branch 1 feature/fashion-pages
 
 - set up folder structure for frontend and backend
 - create first component for fashion catalog page that will display all the images
 - test the component works with a hello world jsx-tag and import into app.js
 - test the image jsx-tag and tachyons import working
 
-#### Branch 2 Common Components
+#### Branch 2 common-components
 
 - set up folder structure to separate fashion pages from components that can be reused anywhere in the app
 - create first common component - search box as a functional component, not a class-based component
@@ -53,8 +53,6 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 .then (response => response.json())
 .then(data =>console.log(data));
 ```
- ![error-with-fetch-method](./src/fashion-catalog-data/peek-data/console-error-with-fetch.png)
-
 - Looked at the option of hardcoding data and displaying images on the front end
 - Made a decision on what an MVP of the brief would be - hard-coded data in an array in the front end
 - Displayed one image successfully 
@@ -67,3 +65,14 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 - Checked some other options out - saving the file as a .js extension 
 - This worked by changing the sample data to an array and separating the objects with commas
 - Successfully transformed data and rendered 2 images in semi-styled components
+
+### Branch 4 feature/garment-list 
+
+- created a new component garment-list
+- moved jsx FashionCatalogPage from app.js into the new component
+- exported it back into app.js 
+- imported the files of FashionCatalogPage into the new component
+- commented out the unused import of FashionCatalog page from app.js
+- used destructured garments import in the app.js component ```	<GarmentList garments={garments} />```
+- passed it back as a property in the functional component GarmentList ```const GarmentList = ({ garments }) => ```
+- tested app working before adding map function
