@@ -1,5 +1,5 @@
 ## Fashion App 
-A fashion App with React.js using API end-point [https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/archive/zalando-women-07-10-2017/garment_items.jl]
+A fashion App with React.js using data from Julia language file [https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/archive/zalando-women-07-10-2017/garment_items.jl]
 
 #### Set up and scaffolding
 
@@ -57,5 +57,8 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 
 - Looked at the option of hardcoding data and displaying images on the front end
 - Made a decision on what an MVP of the brief would be - hard-coded data in an array in the front end
-- Displayed one image successfully ![test-display-page] (./src/screen-shots/test-display-page.png)
+- Displayed one image successfully 
+
+![test-display-page](./src/screen-shots/test-display-page.png)
+
 - Decided to proceed on this approach and to review Zalando Home Page [https://www.zalando.co.uk/women-home/] And black dress search results [https://www.zalando.co.uk/women/?q=black+dresses]
