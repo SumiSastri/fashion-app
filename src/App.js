@@ -12,17 +12,13 @@ class App extends Component {
 			searchfield: ''
 		};
 	}
-
 	onSearchChange = (event) => {
-		// console.log(event.target.value);
 		this.setState({ searchfield: event.target.value });
 	};
-
 	render() {
 		const filteredGarments = this.state.garments.filter((garments) => {
 			return garments.product_title.toLowerCase().includes(this.state.searchfield.toLowerCase());
 		});
-		// console.log(filteredGarments);
 		return (
 			<div className="App">
 				<h1 className="f2 tc">The Ultimate Fashion Catalog</h1>

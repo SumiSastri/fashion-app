@@ -1,5 +1,16 @@
 ## Fashion App 
-A fashion App with React.js using data from Julia language file [https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/archive/zalando-women-07-10-2017/garment_items.jl]
+
+A fashion App with React.js using data from a Julia language file 
+![final-fashion-home-page](./src/screen-shots/fashion-catalog-page.png)
+![demo-of-search-filter](./src/screen-shots/working-search-filter.png)
+### Data decisions
+Initially found the Julia language files a challenge, found answers on stack overflow and viewed data as a text file. Had the option of looking at transforming text file into a python database, hardcoding data. Intially thought I would have to hard-code data, further research resulted in a simple solution of saving the data-cut as an array of objects in the front end and mapping the data for an MVP.
+
+Could have moved the data to the back-end using node and express, but given the constraints of time and the relative effort to fulfilling the task - creation  of a search filter for women's garments, decided to stop at transforming the .jl files into .txt and then into .js files.
+
+
+## Approach from start of project to finish in detail below
+I had initially estimated 5 days to complete the task due to the lack of expertise with the Julia scripting language. Completed this in 2 days, will take another couple of days to move data to back-end with a local server/ small db build. It might be something I would progress, but for the purpose of the task I stopped at this point and decided to deploy the project to gh-pages.
 
 #### Set up and scaffolding
 
@@ -28,7 +39,7 @@ A fashion App with React.js using data from Julia language file [https://s3-eu-w
 - test the component works with a hello world jsx tag and import into app.js
 - style component
 
-#### Branch 3 data-transformations (most challenging section)
+#### Branch 3 data-transformations 
 At this stage I wanted to get an idea of the data structure and set up a backend source folder for the fashion catalog data with a peek-data folder to:- 
 - check how to view .jl files [https://stackoverflow.com/questions/47689018/how-to-open-jl-file#47689085]
 - break down the data into a sample cut based on the stack-overflow recommendation
@@ -85,3 +96,11 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 - filtered and set search criteria from data in data-transformations file
 - added search event listner as prop in search component
 - tested filter working
+
+### Refactoring the MVP
+
+- used CSS grid to make the site responsive
+- removed comments in code and tests
+- removed trial data-files
+
+

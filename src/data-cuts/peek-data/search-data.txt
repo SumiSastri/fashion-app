@@ -1,6 +1,0 @@
-{
-"product_categories_mapped": [24]   
-"product_id": "ny221a00q-n11", 
-"image_urls": ["https://mosaic01.ztat.net/vgs/media/pdp-gallery/NY/22/1A/00/QN/11/NY221A00Q-N11@14.jpg"], 
-product_title: "ASTER  - Jumpsuit - olive" 
-}
