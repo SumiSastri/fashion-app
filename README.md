@@ -3,6 +3,7 @@
 A fashion App with React.js using data from a Julia language file 
 ![final-fashion-home-page](./src/screen-shots/fashion-catalog-page.png)
 ![demo-of-search-filter](./src/screen-shots/working-search-filter.png)
+
 ### Data decisions
 Initially found the Julia language files a challenge, found answers on stack overflow and viewed data as a text file. Had the option of looking at transforming text file into a python database, hardcoding data. Intially thought I would have to hard-code data, further research resulted in a simple solution of saving the data-cut as an array of objects in the front end and mapping the data for an MVP.
 
