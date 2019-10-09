@@ -2,3 +2,13 @@ img {
 	height: 400px;
 	width: auto;
 }
+input {
+	outline: none;
+}
+.womens-garments-page {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	align-items: auto;
+	padding: 5px;
+	margin: 5px;
+}

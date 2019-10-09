@@ -3,7 +3,7 @@ import FashionCatalogPage from './fashion-catalog-page';
 
 const GarmentList = ({ garments }) => {
 	return (
-		<div>
+		<div className="womens-garments-page">
 			{garments.map((garment, i) => {
 				return (
 					<FashionCatalogPage
