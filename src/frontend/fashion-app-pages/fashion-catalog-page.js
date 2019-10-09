@@ -1,7 +1,6 @@
 import React from 'react';
 
-const FashionCatalogPage = (props) => {
-	const { image, description, price } = props;
+const FashionCatalogPage = ({ image, description, price }) => {
 	return (
 		<div className="womens-garments-page">
 			<div className="image-container">
