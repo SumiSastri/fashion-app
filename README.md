@@ -76,3 +76,12 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 - used destructured garments import in the app.js component ```	<GarmentList garments={garments} />```
 - passed it back as a property in the functional component GarmentList ```const GarmentList = ({ garments }) => ```
 - tested app working before adding map function
+
+### Branch 4 feature/search-functionality
+
+- introduced state to the app.js component
+- defined data in state
+- created event handler for on search change
+- filtered and set search criteria from data in data-transformations file
+- added search event listner as prop in search component
+- tested filter working
