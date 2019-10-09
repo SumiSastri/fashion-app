@@ -28,28 +28,38 @@ A fashion App with React.js using API end-point [https://s3-eu-west-1.amazonaws.
 - test the component works with a hello world jsx tag and import into app.js
 - style component
 
-### Master - Peek Data
-- check the data file - is it an API call?
-- check how to view .jl files
-- set up folder to peek-data in backend
-- look at useful data to display make front-end display decisions
--- https (hyper-text-transfer-protocol-secure) requests (tls transport-layer-security or secure sockets layer) Ajax-fetch-methods may not work
-- Read documentation[https://github.com/JuliaWeb/Requests.jl] [https://julialang.org]
+### Master Branch - Peek Data
+At this stage I wanted to get an idea of the data structure and set up a backend source folder for the fashion catalog data with a peek-data folder to:- 
+- check how to view .jl files [https://stackoverflow.com/questions/47689018/how-to-open-jl-file#47689085]
+- break down the data into a sample cut based on the stack-overflow recommendation
+- check if I understood the syntax of the data-structure
+- look at useful data to display make front-end display decisions (search-data.txt)
+- as the data did not look like mongoDb, or python data I spent some time on the documentation
+- - [https://github.com/JuliaWeb/Requests.jl]
+- - deprecated check[https://github.com/JuliaWeb/HTTP.jl] 
+- - [https://julialang.org] 
+- - [https://docs.julialang.org/en/v1/base/io-network/]
 
-- Render one image as a test on home page
-- Make design decisions on a MVP
+After reading the documentation and watching some Julia language tutorials, I was unfamiliar with
+- the Julia package installer
+- Julia command line
+- Julia syntax in the data opened
+- While able to read the data, I was unsure how I could transform the data to text/JSON/.js
+- Unclear if the link was an API and the global ```fetch()``` method could be used
+- Tried the method unsuccessfully
 
-* Data rendering tests
-- Fetch method using Ajax 
 ```
 fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/archive/zalando-women-07-10-2017/garment_items.jl')
 .then (response => response.json())
 .then(data =>console.log(data));
 ```
- ![error-with-fetch-method](./src/fashion-catalog-data/peek-data/Screenshot 2019-10-08 at 23.03.28.png)
+ ![error-with-fetch-method](./src/fashion-catalog-data/peek-data/console-error-with-fetch.png)
 
-### Branch 1 Fashion Pages
-- Review Zalando Home Page [https://www.zalando.co.uk/women-home/] And black dress search results [https://www.zalando.co.uk/women/?q=black+dresses]
+- Looked at the option of hardcoding data and displaying images on the front end
+- Made a decision on what an MVP of the brief would be - hard-coded data in an array in the front end
+- Displayed one image successfully []
+- Decided to proceed on this approach and to review Zalando Home Page [https://www.zalando.co.uk/women-home/] And black dress search results [https://www.zalando.co.uk/women/?q=black+dresses]
+
 
 
 
