@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class FashionCatalogPage extends Component {
-	render() {
-		return (
-			<div>
-				<p className="f4 tc">I will be a fashion catalog page when I grow up!</p>
+const FashionCatalogPage = (props) => {
+	return (
+		<div className="womens-garments-page">
+			<h3 className="f2 tc">Women's Garments</h3>
+			<div className="image-container">
 				<img
-					src="https://mosaic01.ztat.net/vgs/media/pdp-gallery/NY/22/1A/00/QN/11/NY221A00Q-N11@14.jpg"
+					className="dib br pa2 ma2 grow bg-animate transition: background-color .10s ease-in-out tc ba bw2 shadow-6"
+					src={props.image}
 					alt="grey-dress"
 				/>
+				<h4 className="f4 pa1">{props.description}</h4>
+				<h5 className="f5 pa1">{props.price}</h5>
 			</div>
-		);
-	}
-}
+		</div>
+	);
+};
 export default FashionCatalogPage;

@@ -17,3 +17,4 @@ subheading: Outer fabric material: 100% Lyocellcategory: heading_details,  [
      "product_imgs_src": ["https://mosaic01.ztat.net/vgs/media/pdp-gallery/NY/22/1A/00/QN/11/NY221A00Q-N11@14.jpg"], "source": "www.zalando.co.uk", "product_categories": ["womens-clothing-playsuits-jumpsuits"], "images": [{"url": "https://mosaic01.ztat.net/vgs/media/pdp-gallery/NY/22/1A/00/QN/11/NY221A00Q-N11@14.jpg", "path": "full/37431c6247e4964a8ec7f1a4954be8595d34bb18.jpg", "checksum": "10f6a0dc3db6b15724cebe9b1cb244be"}], 
      "price": "84.99", 
      "product_title": "ASTER  - Jumpsuit - olive"}
+

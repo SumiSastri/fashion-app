@@ -28,7 +28,7 @@ A fashion App with React.js using data from Julia language file [https://s3-eu-w
 - test the component works with a hello world jsx tag and import into app.js
 - style component
 
-#### Master Branch - Peek Data
+#### Branch 3 data-transformations (most challenging section)
 At this stage I wanted to get an idea of the data structure and set up a backend source folder for the fashion catalog data with a peek-data folder to:- 
 - check how to view .jl files [https://stackoverflow.com/questions/47689018/how-to-open-jl-file#47689085]
 - break down the data into a sample cut based on the stack-overflow recommendation
@@ -62,3 +62,8 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 ![test-display-page](./src/screen-shots/test-display-page.png)
 
 - Decided to proceed on this approach and to review Zalando Home Page [https://www.zalando.co.uk/women-home/] And black dress search results [https://www.zalando.co.uk/women/?q=black+dresses]
+
+- Did some further research on stack-overflow and posted a question
+- Checked some other options out - saving the file as a .js extension 
+- This worked by changing the sample data to an array and separating the objects with commas
+- Successfully transformed data and rendered 2 images in semi-styled components
