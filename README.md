@@ -98,13 +98,13 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 - added search event listner as prop in search component
 - tested filter working
 
-### Refactoring the MVP
+### Refactoring the MVP (Master)
 
 - used CSS grid to make the site responsive
 - removed comments in code and tests
 - removed trial data-files
 
-### Adding backend server and dependencies
+### Adding backend server and dependencies (Master)
 - File structure - add backend folder with server.js for express router
 - add dependencies
 - add node environment [npm install node]
