@@ -103,5 +103,3 @@ fetch('https://s3-eu-west-1.amazonaws.com/stylr-ai-engine-srv-data/srv/data/arch
 - used CSS grid to make the site responsive
 - removed comments in code and tests
 - removed trial data-files
-
-

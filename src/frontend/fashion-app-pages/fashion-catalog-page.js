@@ -4,7 +4,7 @@ const FashionCatalogPage = ({ image, description, price }) => {
 	return (
 		<div className="image-container">
 			<img
-				className="bg-gold dib  pa2 ma2 grow bg-animate transition: background-color .10s ease-in-out tc ba bw2 shadow-6"
+				className="br-pill dib pa2 ma2 grow bg-animate transition: background-color .10s ease-in-out tc ba bw2 shadow-6"
 				src={image}
 				alt="womens-garments"
 			/>
